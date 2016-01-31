@@ -50,16 +50,17 @@
 
 </nav>
 
-<div class="container-fluid progressBar">
-<div class="progress">
+<div class="container-fluid progressBar col-lg-9 col-xs-9 col-sm-9 col-md-9">
+<div class="progress ">
   <div class="progress-bar progress-bar-striped active" role="progressbar"
   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
     40%
   </div>
 </div>
-
+</div>
 <div class="container-fluid">
-	<div class="col-xs-10 sm-10 md-10 lg-9">
+	<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+		
 		<div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -138,15 +139,32 @@
     </div>
   </div>
 </div>
-	</div>
-	<div class="col-xs-2 sm-2 md-2 lg-3">
-		
-	</div>
+</div>
 
+	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+		<p>Name: Abhik</p><br>
+		<p>Questions<br> <br>Answered : 2<br>
+		Unanswered : 1</p><br>
+		<p>Timer :<br> 28:10 mins remaining</p>
+	</div>
 
 </div>
 
+
+<div class="container">
+<div class="row">
+<ul class="pagination col-*-4 ">
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
 </div>
+	<span class="pull-right"><button type="button" class="btn btn-success">Submit</button></span>
+
+</div>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
